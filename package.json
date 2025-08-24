@@ -1,0 +1,28 @@
+{
+  "name": "simple-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./input.css -o ./css/output.css",
+    "watch": "npx @tailwindcss/cli -i ./input.css -o ./css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.2",
+    "@tailwindcss/cli": "^4.1.11",
+    "prettier": "^3.6.2",
+    "prettier-plugin-classnames": "^0.8.2",
+    "prettier-plugin-merge": "^0.8.0",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}
